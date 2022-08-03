@@ -1,0 +1,41 @@
+.body{
+	padding:40px 60px;
+	background-color:#ffd4f1;
+	text-align:center;
+	font-size:20px;
+	height:30px;
+	line-height: 2em;
+	}
+.div{
+	padding: 25px;
+	margin: 10px 250px;
+	line-height: 50px;
+	background-color: #fff;
+	text-align: center;
+	}
+.register{
+	font-size:15px;
+	border-width: 0;
+	border-radius: 10px;
+	padding: 10px 15px;
+	color: #fff;cursor: pointer;
+	background-color: #ffb960;
+	}
+form>input, form>select{
+	padding:5px 10px;
+	border:1px; 
+	solid #888888;
+	border-radius:5px;
+	}
+.ok{
+	color:#008800;
+	}
+form>input:valid+.ok{
+	display:inline;
+	}
+form>input:invalid+.ok{
+	display:none;
+	}
+.ntublmd{
+	width: 300px;
+}
